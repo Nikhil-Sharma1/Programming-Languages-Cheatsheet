@@ -1,0 +1,13 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+	footer{
+	background:#023559;
+}
+.social-ico{
+	background color: 878CEEB
+	padding:30px 10px;
+	text-align:center;
+	border-bottom:solid 1px #11466c;
+}

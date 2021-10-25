@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>project work</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body bgcolor="yellow">
+	<nav>
+		<div class="nav-class">
+			
+				<div class="nav1" >
+					
+				</div>
+				<div class="nav2">
+					<ul>
+		<li class="nav-li"><a href="#">login</a></li>
+                <li class="nav-li">
+               <form style="background-color: silver;text-align: center;text-indent: 5px;">
+		<BUTTON><a href="topics.html">TOPICS</a></BUTTON>
+		
+
+	</form></li>
+
+			   <li class="nav-li"><input type="text" name="search" placeholder="Ask Any Question">
+<button style="color: blue"><a href="#">POST</a></button>
+				</li>
+
+
+
+					</ul>
+				</div>
+
+
+
+		</div>
+
+
+
+
+	</nav>
+<div class=" body">
+<h1 align=center>POINTERS</h1>
+<h2 style="color:red">pointers</h2>are used to store the address of other variables.
+<h2 style="color:red">Pointer Declaration</h2>
+datatype *pointer name;
+<h2 style="color:red">Example</h2>int *p //can store address of only integer variable<br>
+int a=10;<br>
+p=&a;//store address
+<h2 style="color:red">Dereferencing The Pointer</h2>
+int *p;<br>
+int a=10;<br>
+printf("%d",*p);//output:10<br>
+*p=20;<br>
+printf("%d",*p);//output:20<br>
+printf("%d",a);//output:20<br>
+<h2 style="color:red">Pointer Flexibilty</h2>
+int *p,i,j,k;<br>
+i=2;<br>
+j=4;<br>
+k=6;<br>
+p=&i;<br>
+printf("%d",*p);//output:2<br>
+p=&j;<br>
+printf("%d",*p);//output:4<br>
+p=&k;<br>
+printf("%d",*p);//output:6<br>
+<h2 style="color:red">Types Of Pointers</h2>
+<ultype="solid circle">
+<li>Null Pointer</li>
+<li>Wild/Uninitialised Pointer</li>
+<li>Dangling Pointer</li>
+<li>Void Pointer</li>
+<ol start=1><li><h3>Null Pointer</h3></li>
+int *p;
+P=null;
+<li><h3>Wild/Uninitialised pointer</li></h3>
+int *p;
+int a;
+p=&a;//If this line is missing, then it is wild pointer. It does not provide any address.
+<li><h3>Dangling Pointer</li></h3>
+A pointer is pointing to a memory address of a variable and the variable is not existing,
+but the pointer is still pointing to the same address, this pointer is known as dangling pointer.<br>
+main()<br>
+{<br>
+int *p;<br>
+{<br>
+int a=10;<br>
+p=&a;<br>
+}<br>
+printf("%d",*p);//output:10, a is not accessible outside the block, but the pointer is still pointing towards a.<br>
+}<br>
+<li><h3>Void/Generic pointer</li></h3>
+In it, we can use any datatype, only there is some change in printf statement. It is also known as generic pointer.<br>
+void *p;<br>
+int a=1;<br>
+float b=4.4;<br>
+char c="x";<br>
+p=&a;<br>
+printf("%d",*(int*)p;<br>
+p=&b;<br>
+printf("%f",*(float*)p;<br>
+p=&c;<br>
+printf("%c",*(char*)p;<br></ol>
+<h1 align=center style="color:blue">RECOMMENDED QUESTIONS</H1><br>
+<a href="index.css" target= "blank"><h3>Q1. If a variable is a pointer to a structure, 
+ then which operator is used to access data members of the structure through the pointer variable?</h3></a>
+<a href="index.css" target= "blank"><h3>Q2. Which type of pointer is a most convenient way of storing raw address in c programming?</h3></a>
+<a href="index.css" target= "blank"><h3>Q3. State equivalent pointer ecpression which refer the given array element a[i][j][k][l]?</h3></a>
+<li class="nav-as"><input type="text" name="search"placeholder="Ask Any Question">
+<button style="background-color: "sky blue";"><a href="search.html">Search</a>
+</div>
+</body>
+</html>

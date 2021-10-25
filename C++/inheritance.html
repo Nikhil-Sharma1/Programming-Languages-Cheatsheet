@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>project work</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body bgcolor="yellow">
+	<nav>
+		<div class="nav-class">
+			
+				<div class="nav1" >
+					
+				</div>
+				<div class="nav2">
+					<ul>
+		<li class="nav-li"><a href="#">login</a></li>
+                <li class="nav-li">
+               <form style="background-color: silver;text-align: center;text-indent: 5px;">
+		<BUTTON><a href="topics.html">TOPICS</a></BUTTON>
+		
+
+	</form></li>
+
+			   <li class="nav-li"><input type="text" name="search" placeholder="Ask Any Question">
+<button style="color: blue"><a href="#">POST</a></button>
+				</li>
+
+
+
+					</ul>
+				</div>
+
+
+
+		</div>
+
+
+
+
+	</nav>
+<div class=" body">
+<h1 align=center> INHERITANCE</h1>
+<h2 style="color:red">Inheritance</h2> 
+means reusability. When you want to use data mambers and data functions of other class without friend function, inheritance is used.
+<h3>Syntax-:</h3>class2:"mode of inheritance"class1
+<h3>Example-:</h3>
+class A<br>
+{<br>
+int roll;<br>
+get()<br>
+{<br>
+cout<<"a";<br>
+}<br>
+put()<br>
+{<br>
+cout<<"b";<br>
+}<br>
+};<br>
+class B:A//members of A an B also<br>
+{<br>
+int marks;<br>
+getdata();<br>
+putdata();<br>
+}<br>
+<h4>Toatal members of B=own members+ inherite members from A
+<pre><pre><pre><pre><pre>marks+getdata()+putdata()+roll+get()+put()</h4>
+<h2 style="color:red"> Types of inheritance </h2>
+<ul type="solid circle"><li>Single Inheritance</li>
+<li>Multiple Inheritance</li>
+<li>Multilevel Inheritance</li>
+<li>Hierarchical Inheritance</li>
+<li>Hybrid Inheritance</li>
+</ul>
+<ol start=1><li><h3>Single Inheritance</h3></li>
+In single inheritance, ther is only 1 base class and 1 derived class.
+<h3>Syntax-:</h3>derived class:"mode of inheritance"base class
+<li><h3>Multiple Inheritance</h3></li>
+In multiple inheritance, there are 2 base classes and 1 derived class.
+<h3>Syntax-:</h3>derived class:"mode of inheritance" Base1, "mode of inheritance"Base class 2
+<li><h3>Multilevel Inheritance</h3></li>
+In it, there is multiple level of inheritance. It requires minimum three classes.
+class A(members of A)-->class B(members of A+B)-->class C(members of A+B+C)
+<li><h3>Hierarchical Inheritance</h3></li>
+In hierarchical inheritance, there is 1 base class and multiple derived class.
+<h3>Syntax-:</h3>
+class A
+class B:public A
+class C:public A
+<li><h3>Hybrid Inheritance</h3></li>
+In hybrid inheritance, there is the mixture of any two types of inheritance.
+</ol>
+<h2 style="color:red">Mode Of Inheritance</h2>
+<table border=1>
+<tr>
+<th>Base class</th>
+<th> Private</th>
+<th> Public</th>
+<th> Protected</th>
+</tr>
+<tr>
+<td>Private Member</td>
+<td>No Inheritance</td>
+<td>No Inheritance</td>
+<td>No Inheritance</td>
+</tr>
+<tr>
+<td>Public Member</td>
+<td>become private member of derived class</td>
+<td>become public member of derived class</td>
+<td>become protected member of derived class</td>
+</tr>
+<tr>
+<td>Protected Member</td>
+<td>become private member of derived class</td>
+<td>become protected member of derived class</td>
+<td>become protected member of derived class</td>
+</tr>
+</table>
+<h1 align=center style="color:blue">RECOMMENDED QUESTIONS</H1><br>
+<a href="index.css" target= "blank"><h3>Q1. What is the difference between public and private access specifier?</h3></a>
+<a href="index.css" target= "blank"><h3>Q2. What are the advantages of inheritance?</h3></a>
+<a href="index.css" target= "blank"><h3>Q3. How to implement data and functionality as a single entity?</h3></a>
+<li class="nav-as"><input type="text" name="search"placeholder="Ask Any Question">
+<button style="background-color: "sky blue";"><a href="search.html">Search</a>
+<div>
+</body>
+</html>

@@ -1,0 +1,107 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.nav-class{
+	height: 100px;
+	width: 100%
+
+}
+.nav1{
+	height: 100px;
+	width: 30%;
+	background-color:grey;
+	float:left;
+	
+}
+.nav2{
+	height: 100px;
+	width: 70%;
+	background-color:grey;
+	float:right;
+	
+}
+.nav-li{
+	text-align:right;
+	font-style: none;
+	display: inline-block;
+	font-size: 16px;
+	padding-top: 50px;
+	padding-right: 25px;
+}
+.nav-as{
+	text-align: right;
+	font-style: none;
+	display: inline-block;
+	font-size: 16px;
+	padding-top: 15px;
+	padding-right: 40px;
+	padding-left: 40px;
+	align-items: center;
+}
+nav ul{
+	text-align: right;
+	text-indent: 20px;
+}
+
+
+.main-b{
+			height: 700px;
+			width: 100%;
+			background-color: black;
+
+
+}
+.b1{
+	height: 700px;
+			width: 30%;
+			background-image: "images\home page\bg1.png";
+			float: left;
+
+
+
+}
+
+.b2{
+	height: 700px;
+			width: 40%;
+			background-color:blue;
+			float:left;
+				overflow: scroll;
+
+}
+.b3{
+	height: 700px;
+	width: 30%;
+	background-color: red;
+	float:left;
+	}
+			.button{
+				width: 200px;
+				margin-left:150px; 
+			}
+				.buttonn{
+				width: 200px;
+				margin-left:150px; 
+				margin-top: 50px;
+			}
+			.question{
+				border: 3px solid black;
+				height:100PX;
+				width: 75%;
+				margin-left:100px;
+				overflow:scroll;
+				margin-top: 25PX;
+			}
+			body{
+				scroll-behavior:smooth;
+				font-family: 'Montserrat', sans-serif;
+			}
+footer{
+	background:#023559;
+}
+.social-ico{
+	padding:30px 10px;
+	text-align:center;
+	border-bottom:solid 1px #11466c;
+}

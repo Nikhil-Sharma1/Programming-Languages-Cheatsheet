@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>project work</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body bgcolor="yellow">
+	<nav>
+		<div class="nav-class">
+			
+				<div class="nav1" >
+					
+				</div>
+				<div class="nav2">
+					<ul>
+		<li class="nav-li"><a href="#">login</a></li>
+                <li class="nav-li">
+               <form style="background-color: silver;text-align: center;text-indent: 5px;">
+		<BUTTON><a href="topics.html">TOPICS</a></BUTTON>
+		
+
+	</form></li>
+
+			   <li class="nav-li"><input type="text" name="search" placeholder="Ask Any Question">
+<button style="color: blue"><a href="#">POST</a></button>
+				</li>
+
+
+
+					</ul>
+				</div>
+
+
+
+		</div>
+
+
+
+
+	</nav>
+<div class=" body">
+<h1 align=center> File Handling</h1>
+<h2 style="color:red">Steps in File Handling</h2>
+<ul type="solid circle"><li>Reading From Keyboard</li>
+<li>Writing in file</li>
+<li>Reading from file</li>
+<li>Write on screen</li>
+</ul>
+<ul type="square"><li>For only read from file, class <b>ifstream</b is used.</li>
+<li>For only write in file, class <b>ofstream</b is used.</li>
+<li>For both reading and writing in file, class <b>fstream</b is used.</li>
+</ul>
+<h2>For opening a file</h2>
+<ol start=1><h2><li>Opening a file for writing</h2></li>
+syntax-:ofstream object name("file name which you want to open.extension");<br>
+When we open a file in write mode-:if that file is not existing, it create a new file of that name automatically.
+<h2><li>Opening a file for reading</h2></li>
+syntax-:ifstream object name("file name which you want to open.extension");<br>
+When we open a file in read mode-:if that file is not existing, this class is not working. If file exits, it replace previous content with new content.
+<ul><li><h2>Text File</h2></li>
+Files which are in human readable form. By default, file is considered as text files. 
+Extention-:".txt"
+<li><h2>Binary File</h2></li>
+Files which are not in human readable form.
+Extension-:".dnd"
+<h3 style="color:red">Example</h3>
+ofstream X("ABC.txt");//For writing only<br>
+int a;<br>
+cin>>a;<br>
+x<<a;//for displaying on file, not on screen<br>
+x.close();//close a file<br>
+ifstream X("ABC.txt");//for reading only<br>
+x>>a;<br>
+<h2 style="color:red"> File Operation modes</h2>
+<table border=2>
+<tr>
+<th><b>Modes</b></th>
+<th><b>Description</b></th>
+</tr>
+<tr>
+<td>ios::in</td>
+<td>For reading(Default for reading)</td>
+</tr>
+<tr>
+<td>ios::out</td>
+<td>For writing(Default for writing)</td>
+</tr>
+<tr><td>ios::binary</td>
+<td>For binary files</td>
+</tr>
+<tr>
+<td>ios::trunc</td>
+<td>deleting content of file</td>
+</tr>
+<tr>
+<td>ios::app</td>
+<td>add new data at end of the file(save previous data + new data)</td>
+</tr>
+<tr>
+<td>ios::ate</td>
+<td>file pointer point at end of the line(for both reading and writing)</td>
+</tr>
+<tr>
+<td>ios::nocreate</td>
+<td>does not create a new file when you open a file for writing and file is not exist</td>
+</tr>
+<tr>
+<td>ios::no replace</td>
+<td>does not replace the previous content of the file when you open a file for writing and file exits</td>
+</tr>
+</table>
+<h1 align=center style="color:blue">RECOMMENDED QUESTIONS</H1><br>
+<a href="index.css" target= "blank"><h3>Q1. Why ios::truc is used?</h3></a>
+<a href="index.css" target= "blank"><h3>Q2. How to read a record from file?</h3></a>
+<a href="index.css" target= "blank"><h3>Q3. How to find size of file?</h3></a>
+<li class="nav-as"><input type="text" name="search"placeholder="Ask Any Question">
+<button style="background-color: "sky blue";"><a href="search.html">Search</a>
+</div>
+</body>
+</html>
