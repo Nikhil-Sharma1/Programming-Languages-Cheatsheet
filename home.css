@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.nav-class{
+	height: 50px;
+	width: 100%;
+
+}
+.nav1{
+	height: 50px;
+	width: 30%;
+	background-color:grey;
+	float:left;
+	
+}
+.nav2{
+	height: 50px;
+	width: 70%;
+	background-color:grey;
+	float:right;
+	
+}
+.nav-li{
+	text-align:right;
+	font-style: none;
+	display: inline-block;
+	font-size: 16px;
+	padding-top: 5px;
+	padding-right: 25px;
+}
+.nav-as{
+	text-align: right;
+	font-style: none;
+	display: inline-block;
+	font-size: 16px;
+	padding-top: 15px;
+	padding-right: 40px;
+	padding-left: 40px;
+	align-items: center;
+}
+nav ul{
+	text-align: right;
+	text-indent: 20px;
+}
+.main-home{
+	position:fixed;
+	height: 500px;
+	width: 100%;
+	background-color: black;
+	overflow: scroll;
+	
+}
+.home1{
+	position: absolute;
+	left: 0;
+	height: 600px;
+	width: 30%;
+	background-color:silver;
+	overflow: scroll;
+}
+.home2{
+	position: absolute;
+	left: 30%;
+	height: 600px;
+	width: 40%;
+	background-color:silver;
+	overflow: scroll;
+
+}
+.home3{
+	position: absolute;
+	left: 70%;
+	height: 600px;
+	width: 30%;
+	background-color:silver;
+	overflow: scroll;
+}
+.question{
+				border: 3px solid black;
+				height:100PX;
+				width: 70%;
+				margin-left:100px;
+				overflow:scroll;
+				margin-top: 25PX;
+			}
+			.button{
+				width: 200px;
+				margin-left:70px; 
+			}
+				.buttonn{
+				width: 200px;
+				margin-left:70px; 
+				margin-top: 10px;
+			}
+			.quiz{
+				padding-left:10px;
+				padding-top: 5px;
+			}
+			footer{
+	background:#023559;
+}
+.social-ico{
+	padding:30px 10px;
+	text-align:center;
+	border-bottom:solid 1px #11466c;
+}
